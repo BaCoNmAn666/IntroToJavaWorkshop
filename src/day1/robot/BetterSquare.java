@@ -16,6 +16,8 @@ public class BetterSquare {
     		Esme.move(500);
 			Esme.turn(270);
 		}
+    	Esme.setRandomPenColor();
+    	Esme.hide();
     	Esme.move(250);
     	Esme.turn(270);
     	Esme.move(500);
@@ -27,7 +29,13 @@ public class BetterSquare {
     	Esme.move(500);
     	Esme.turn(90);
     	Esme.move(250);
-    	
-    	
+    	Esme.turn(225);
+    	Esme.move(355);
+    	Esme.turn(225);
+    	Esme.move(250);
+    	Esme.turn(90);
+    	Esme.move(245);
+    	Esme.turn(135);
+    	Esme.move(355);
 	}
 }

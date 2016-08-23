@@ -12,6 +12,7 @@ public class PentagonCrazy {
 
 			Robot apple = new Robot("mini");
 		
+			apple.moveTo(700, 360);
 			apple.penDown();
 		// 8. Make the robot go at maximum speed (10)
 			apple.setSpeed(10);
